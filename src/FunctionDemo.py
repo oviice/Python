@@ -2,15 +2,15 @@ x = 101
 
 
 # Global variable in function
-def mainFunction():
-    # printing a global variable
-    x = 50
+def ovi():
+    global x
+    x = 69
+
+    print(x)
+    # modifying a global variable
+    x = 'Welcome To Javatpoint'
+    print(x)
 
 
-print(x)
-# modifying a global variable
-x = 'Welcome To Javatpoint'
-print(x)
-
-mainFunction()
+ovi()
 print(x)
